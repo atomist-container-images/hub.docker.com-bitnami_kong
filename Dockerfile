@@ -1,12 +1,24 @@
-# Tags: latest, 2.8.1-debian-10-r22, 2.8.1, 2-debian-10, 2
+# Tags: latest, 2.8.1-debian-10-r26, 2.8.1, 2-debian-10, 2
 FROM bitnami/kong:latest
-FROM bitnami/kong:2.8.1-debian-10-r22
+FROM bitnami/kong:2.8.1-debian-10-r26
 FROM bitnami/kong:2.8.1
 FROM bitnami/kong:2-debian-10
 FROM bitnami/kong:2
 
 # Tags: _
 FROM bitnami/kong:_
+
+# Tags: 2.8.1-debian-10-r25
+FROM bitnami/kong:2.8.1-debian-10-r25
+
+# Tags: 2.8.1-debian-10-r24
+FROM bitnami/kong:2.8.1-debian-10-r24
+
+# Tags: 2.8.1-debian-10-r23
+FROM bitnami/kong:2.8.1-debian-10-r23
+
+# Tags: 2.8.1-debian-10-r22
+FROM bitnami/kong:2.8.1-debian-10-r22
 
 # Tags: 2.8.1-debian-10-r21
 FROM bitnami/kong:2.8.1-debian-10-r21
@@ -83,15 +95,3 @@ FROM bitnami/kong:2.8.0-debian-10-r19
 
 # Tags: 2.8.0-debian-10-r18
 FROM bitnami/kong:2.8.0-debian-10-r18
-
-# Tags: 2.8.0-debian-10-r17
-FROM bitnami/kong:2.8.0-debian-10-r17
-
-# Tags: 2.8.0-debian-10-r16
-FROM bitnami/kong:2.8.0-debian-10-r16
-
-# Tags: 2.8.0-debian-10-r14
-FROM bitnami/kong:2.8.0-debian-10-r14
-
-# Tags: 2.8.0-debian-10-r13
-FROM bitnami/kong:2.8.0-debian-10-r13
